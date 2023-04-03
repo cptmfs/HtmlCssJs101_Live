@@ -16,45 +16,110 @@
             width: 20%;
             height: 20%;
         }
+        .p1 /*<p> olan heryerde aşağıdaki değişiklikleri uygula*/ /* eger ayrı p lere ayrı boyutlar vermek istiyorsak p tagına class="p1" p2 gibi class tanımlaması yapıp ona göre ulaşabiliriz..*/
+        {
+            font-size:20px;
+            font-weight:500;
+        }
+        .p2 
+        {
+            font-size: 10px;
+            font-weight: 200;
+        }
+        .u1 
+        {
+            font-size: 10px;
+            font-weight: 200;
+        }
+        /*nav {
+            float: left;
+            width: 30%;
+            height: 300px;*/ /* only for demonstration, should be removed */
+            /*background: #ccc;
+            padding: 20px;
+        }
+        header {
+            background-color: #666;
+            padding: 30px;
+            text-align: center;
+            font-size: 35px;
+            color: white;
+        }
+        article {
+            float: left;
+            padding: 20px;
+            width: 70%;
+            background-color: #f1f1f1;
+            height: 300px;*/ /* only for demonstration, should be removed */
+        /*}*/
+
+        /* Clear floats after the columns */
+        /*section::after {
+            content: "";
+            display: table;
+            clear: both;
+        }*/
     </style>
 </head>
 <body>
-    <h1>FeritKaptan Web Sayfasıdır.</h1>
-    <nav>
-        <!-- navigation -->
-        <ul class="nav">
-            <!-- Unordered list -->
-            <li><a href="Index.html">Anasayfa</a></li>
-            <li><a href="About.html">Hakkımızda</a></li> <!-- List Item --> <!-- a herf ile about.html diyince oraya yönlendirme yaptı.-->
-            <li><a href="Contact.html">İletişim</a></li> <!-- List Item -->
-        </ul>
+    <header>
+        <h1>FeritKaptan Web Sayfasıdır.</h1>
 
-
-
-    </nav>
-    <center><img class="resim1" src="2.png" alt="cptpenguin" /></center>
-    <center><img class="resim2" src="1.png" alt="mfs" /></center>
-    <h4>
-        Muhammed Ferit Simsek Kimdir ?
-    </h4>
-    <p>
-        Kocaeli Üniversitesi Deniz Ulaştırma ve İşletme bölümünden 3.31 ortalama ile Onur Öğrencisi olarak mezun,
-        ANADOLU
-        ÜNİVERSİTESİ İŞLETME Bölümünden 3.29 ortalama ile Onur Öğrencisi olarak mezun oldum.
-        <br />
-        Doğal Gıda San. Tic. A.Ş.'de Satın alma Elemanı olarak başladığım kariyerime buradaki kazanımların da katkısı ile daha sonra Key Teknik - FLUIDMASTER TURKEY bünyesinde Satın Alma Uzman Yardımcısı olarak devam ettim.<br />
-        Bir süre burada hizmet verdikten sonra kariyerimdeki üçüncü bölüme Poyraz Safety ile Satın Alma Uzmanı olarak devam ettim.<br />
-        Yaklaşık 5 yıl boyunca farklı görev aldığım satın alma pozisyonu içerisinde;<br />
-        <ul>
-            <li>Yaklaşık Maliyet Belirleme</li>
-            <li>Piyasa Fiyat Araştırması Tutanağı Hazırlama</li>
-            <li>Sipariş - Gelen Ürün - Fatura Kontrolünün Sağlanması</li>
-            <li> LOGO TIGER ve NOZZLE gibi ERP/MRP programları üzerinden talep ve sipariş açma</li>
-            <li>Onaylı Tedarikçi listelerinin oluşturulması</li>
-            <li>Termine Uyum ve Kontrol gibi süreçlerin takibi üzerinde çalışmalar yaptık.</li>
-        </ul>
-
-    </p>
+    </header>
+    <section>
+        <nav>
+            <!-- navigation -->
+            <ul class="nav">
+                <!-- Unordered list -->
+                <li><a href="Index.html">Anasayfa</a></li>
+                <li><a href="About.html">Hakkımızda</a></li> <!-- List Item --> <!-- a herf ile about.html diyince oraya yönlendirme yaptı.-->
+                <li><a href="Contact.html">İletişim</a></li> <!-- List Item -->
+            </ul>
+        </nav>
+        <center><img class="resim1" src="2.png" alt="cptpenguin" /></center>
+        <center><img class="resim2" src="1.png" alt="mfs" /></center>
+        <article>
+            <h4>
+                Muhammed Ferit Simsek Kimdir ?
+            </h4>
+            <p class="p1">
+                Kocaeli Üniversitesi Deniz Ulaştırma ve İşletme bölümünden 3.31 ortalama ile Onur Öğrencisi olarak mezun,
+                ANADOLU
+                ÜNİVERSİTESİ İŞLETME Bölümünden 3.29 ortalama ile Onur Öğrencisi olarak mezun oldum.
+                <br />
+                Doğal Gıda San. Tic. A.Ş.'de Satın alma Elemanı olarak başladığım kariyerime buradaki kazanımların da katkısı ile daha sonra Key Teknik - FLUIDMASTER TURKEY bünyesinde Satın Alma Uzman Yardımcısı olarak devam ettim.<br />
+                Bir süre burada hizmet verdikten sonra kariyerimdeki üçüncü bölüme Poyraz Safety ile Satın Alma Uzmanı olarak devam ettim.<br />
+                Yaklaşık 5 yıl boyunca farklı görev aldığım satın alma pozisyonu içerisinde;<br />
+                <ul>
+                    <li>Yaklaşık Maliyet Belirleme</li>
+                    <li>Piyasa Fiyat Araştırması Tutanağı Hazırlama</li>
+                    <li>Sipariş - Gelen Ürün - Fatura Kontrolünün Sağlanması</li>
+                    <li> LOGO TIGER ve NOZZLE gibi ERP/MRP programları üzerinden talep ve sipariş açma</li>
+                    <li>Onaylı Tedarikçi listelerinin oluşturulması</li>
+                    <li>Termine Uyum ve Kontrol gibi süreçlerin takibi üzerinde çalışmalar yaptık.</li>
+                </ul>
+            </p>
+            <p class="p2">
+                Kocaeli Üniversitesi Deniz Ulaştırma ve İşletme bölümünden 3.31 ortalama ile Onur Öğrencisi olarak mezun,
+                ANADOLU
+                ÜNİVERSİTESİ İŞLETME Bölümünden 3.29 ortalama ile Onur Öğrencisi olarak mezun oldum.
+                <br />
+                Doğal Gıda San. Tic. A.Ş.'de Satın alma Elemanı olarak başladığım kariyerime buradaki kazanımların da katkısı ile daha sonra Key Teknik - FLUIDMASTER TURKEY bünyesinde Satın Alma Uzman Yardımcısı olarak devam ettim.<br />
+                Bir süre burada hizmet verdikten sonra kariyerimdeki üçüncü bölüme Poyraz Safety ile Satın Alma Uzmanı olarak devam ettim.<br />
+                Yaklaşık 5 yıl boyunca farklı görev aldığım satın alma pozisyonu içerisinde;<br />
+                <ul class="u1">
+                    <li>Yaklaşık Maliyet Belirleme</li>
+                    <li>Piyasa Fiyat Araştırması Tutanağı Hazırlama</li>
+                    <li>Sipariş - Gelen Ürün - Fatura Kontrolünün Sağlanması</li>
+                    <li> LOGO TIGER ve NOZZLE gibi ERP/MRP programları üzerinden talep ve sipariş açma</li>
+                    <li>Onaylı Tedarikçi listelerinin oluşturulması</li>
+                    <li>Termine Uyum ve Kontrol gibi süreçlerin takibi üzerinde çalışmalar yaptık.</li>
+                </ul>
+            </p>
+        </article>
+    </section>
+    <hr />
+    
     <div class="pvs-entity
     pvs-entity--padded pvs-list__item--no-padding-in-columns">
         <div>

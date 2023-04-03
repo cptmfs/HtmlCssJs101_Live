@@ -1,1 +1,3 @@
 & kodundan sonra özel karakterleri yazdýrabiliyoruz .
+
+<a href="#"  ---> buradaki # bulundugun sayfada kal demektir..
