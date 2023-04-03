@@ -1,0 +1,160 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" /> <!-- meta etkitenin charset özelliği bir web sayfasının hangi dile destek vereceğini belirtir..-->
+    <title>Sayfanın Title Bölümü..</title> <!-- Burası browser sekmesinde görünen kısım..-->
+
+    <script src="test.js"></script> <!-- herhangi bir external script(javascript) dosyasının bu sayfaya dahil edilmesini sağlar..-->
+    <script src="test2.js"></script>
+    <link rel="shortcut icon" href="tr_flag.ico" type="image/x-icon" /> <!-- Link etiketiyle external bir CSS -->
+</head>
+<body>
+
+    <header>
+        <!-- Yapısal Html Etiketi-->
+        <center><h3 style="color:red">HTML Eğitimi - Bilisim Egitim Merkezi</h3></center> <!-- center ortaya merkeze alır-->
+        <center><a href="https://www.bilisimegitim.com" target="_blank">Bilisim Egitim Merkezi</a></center> <!-- target blank yeni sekmede aç anlamına gelmektedir.-->
+
+        <nav>
+            <!-- navigation -->
+            <ul class="nav">
+                <!-- Unordered list -->
+                <li><a href="Index.html">Anasayfa</a></li>
+                <li><a href="About.html">Hakkımızda</a></li> <!-- List Item --> <!-- a herf ile about.html diyince oraya yönlendirme yaptı.-->
+                <li><a href="Contact.html">İletişim</a></li> <!-- List Item -->
+            </ul>
+
+        </nav>
+        <hr />
+        <h1>Ferit Kaptan</h1> <!-- Başlık en büyük yazılışı-->
+        <b style="color:crimson">Jr. Software Developer</b>
+        <hr />
+        <ul>
+            <li><a href="School.html">Egitim Merkezi</a></li>
+            <li><a href="Lesson.html">Egitimler</a></li>
+            <li><a href="Remote.html">Uzaktan Eğitim</a></li>
+        </ul>
+        <hr />
+
+        <table class="table">
+            <thead>
+                <tr>
+                    <th style="color:darkgreen">Okul</th>
+                    <th style="color: darkgreen">Ders</th>
+                    <th style="color: darkgreen">Egitmen</th>
+                    <th style="color: darkgreen">Ogrenci</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td style="color:midnightblue">Bilisim Egitim Merkezi</td>
+                    <td style="color: midnightblue ">Asp.Net MVC</td>
+                    <td style="color: midnightblue ">Ümit Karaçivi</td>
+                    <td style="color: midnightblue ">Muhammed Ferit Simsek</td>
+                </tr>
+            </tbody>
+        </table>
+        <hr />
+
+        <p>
+            <!-- Paragraf -->
+            <h4>Kurumsal Kaynak Planlama ve Veri Analizi Eğitimi</h4>
+        </p>
+        <p>
+            -C# programalama dilini kullanabilmek,
+            <br /> <!-- 1 satır aşağı in ..-->
+            -İleri düzey OOP ve Design Pattern presipleri ile çalışmak,
+            <br />
+            -Front-End Developer yetkinliklerini kazanmak,
+            <br />
+            -ASP.NET Core ve MVC ile Katmanlı Mimarı yapıları ile Back-End yetkinliklerini kazanmak,
+            <br />
+            -Framework kütüphanelerini kullanabilmek,
+            <br />
+            -Web API Servislerini öğrenerek sınırsız erişim imkanı sağlamak,
+            <br />
+            -MS SQL ile veritabanı oluşturmak,
+            <br />
+            -Agile Scrum ile proje yönetimi esaslarını öğrenmek,
+            <br />
+            -Azure ile bulut teknoloji ile tanışmak,
+            <br />
+            -Github üzerinden etkilişimde bulunmak.
+        </p>
+
+
+        <hr />
+        <section>
+            <!-- Yapısal HTML Etiketi  --  Bölümlere Ayırmak için kullanılır..-->
+            <h4>Section</h4>
+            <ul>
+                <!-- maddeler halinde yazmak için .. -->
+                <li>
+                    -C# programalama dilini kullanabilmek,
+                </li>
+                <li>
+                    -İleri düzey OOP ve Design Pattern presipleri ile çalışmak,
+                </li>
+                <li>
+                    -Front-End Developer yetkinliklerini kazanmak,
+                </li>
+                <li>
+                    -ASP.NET Core ve MVC ile Katmanlı Mimarı yapıları ile Back-End yetkinliklerini kazanmak,
+                </li>
+                <li>
+                    -Framework kütüphanelerini kullanabilmek,
+                </li>
+                <li>
+                    -Web API Servislerini öğrenerek sınırsız erişim imkanı sağlamak,
+                </li>
+                <li>
+                    -MS SQL ile veritabanı oluşturmak,
+                </li>
+                <li>
+                    -Agile Scrum ile proje yönetimi esaslarını öğrenmek,
+                </li>
+                <li>
+                    -Azure ile bulut teknoloji ile tanışmak,
+                </li>
+                <li>
+                    -Github üzerinden etkilişimde bulunmak.
+                </li>
+            </ul>
+        </section>
+
+        <aside>
+            <h4>
+                Muhammed Ferit Simsek kimdir ?   ( aside )
+            </h4>
+            <p>
+                Kocaeli Üniversitesi Deniz Ulaştırma ve İşletme bölümünden 3.31 ortalama ile Onur Öğrencisi olarak mezun,
+                ANADOLU
+                ÜNİVERSİTESİ İŞLETME Bölümünden 3.29 ortalama ile Onur Öğrencisi olarak mezun oldum.
+                <br />
+                Doğal Gıda San. Tic. A.Ş.'de Satın alma Elemanı olarak başladığım kariyerime buradaki kazanımların da katkısı ile daha sonra Key Teknik -
+                FLUIDMASTER TURKEY bünyesinde Satın Alma Uzman Yardımcısı olarak devam ettim.<br /> Bir süre burada hizmet verdikten sonra kariyerimdeki üçüncü
+                bölüme Poyraz Safety ile Satın Alma Uzmanı olarak devam ettim.<br />
+                Yaklaşık 5 yıl boyunca farklı görev aldığım satın alma pozisyonu içerisinde;<br />
+                <ul>
+                    <li>Yaklaşık Maliyet Belirleme</li>
+                    <li>Piyasa Fiyat Araştırması Tutanağı Hazırlama</li>
+                    <li>Sipariş - Gelen Ürün - Fatura Kontrolünün Sağlanması</li>
+                    <li> LOGO TIGER ve NOZZLE gibi ERP/MRP programları üzerinden talep ve sipariş açma</li>
+                    <li>Onaylı Tedarikçi listelerinin oluşturulması</li>
+                    <li>Termine Uyum ve Kontrol gibi süreçlerin takibi üzerinde çalışmalar yaptık.</li>
+                </ul>
+                
+            </p>
+        </aside>
+
+    </header>
+
+    <footer>
+        &copy; Copyright  FeritKaptan - 2023x
+    </footer>
+
+
+</body>
+</html>

@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33403.182
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D3D0F8A8-F845-4A59-8946-8E728BC04663}"
+	ProjectSection(SolutionItems) = preProject
+		About.html = About.html
+		Contact.html = Contact.html
+		Index.html = Index.html
+		Lesson.html = Lesson.html
+		Remote.html = Remote.html
+		School.html = School.html
+		TextFile1.txt = TextFile1.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Images", "Images", "{2CC022FE-7904-4551-BE28-D13C154EF638}"
+	ProjectSection(SolutionItems) = preProject
+		1.png = 1.png
+		tr_flag.ico = tr_flag.ico
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2CC022FE-7904-4551-BE28-D13C154EF638} = {D3D0F8A8-F845-4A59-8946-8E728BC04663}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D5998987-F245-4FDA-978A-E419369D6633}
+	EndGlobalSection
+EndGlobal
