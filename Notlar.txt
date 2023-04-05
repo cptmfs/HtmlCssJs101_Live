@@ -1,0 +1,20 @@
+<u>		Altý Çizili yapar	   </u>
+<i>		 Ýtalik yapar		   </i>
+<b>		 Bold Kalýn Yazar		</b>
+<strong>    Kalýn Yazar		</strong>
+<small>		Küçük boyutlu bir yazý </small>
+<span>		Normal bir yazý			</span>
+<big>		Büyük yazý				</big>
+    <!-- Font ile ilgili bazý etiketler/elementler -->
+
+<p><font color="red">Kýrmýzý renkte bir yazý</font></p>
+<b><font color="#27ae60">#27ae60 ( yesil ) renkte <u>Kalýn</u> bir yazý</font></b>
+<p><font face="Verdana">Verdana Font Yazýsý</font></p>
+<p><font size="6">yazý büyüklüðü 6 olan bir yazý</font></p>
+<p>
+<font face="Tahoma" size="5" color="blue">
+    Tahoma  yazý tipinde 5 büyüklüðünde mavi bir yazýdýr.
+</font>
+</p>
+
+    <hr />   Çizgi çeker iki bölümü ayýrmak için 
