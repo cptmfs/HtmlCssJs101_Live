@@ -85,8 +85,12 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\bootstrap.rtl.css" />
     <Content Include="Content\bootstrap.rtl.min.css" />
+    <Content Include="CssCalisma.html" />
+    <Content Include="css\CssCalismaStyle.css" />
+    <Content Include="deneme.html" />
     <Content Include="Ferit.html" />
     <Content Include="FeritSimsek.html" />
+    <Content Include="HtmlTable.html" />
     <Content Include="index.html" />
     <Content Include="kaptan.html" />
     <Content Include="Scripts\bootstrap.bundle.js" />

@@ -1,0 +1,33 @@
+﻿#table3 {
+    text-align: left;
+    position: relative;
+    border-collapse: collapse;
+    background-color: #f6f6f6;
+}
+    /* Spacing */
+    #table3 td, th {
+        border: 1px solid #999;
+        padding: 20px;
+    }
+
+    #table3 th {
+        background: brown;
+        color: white;
+        border-radius: 3px; /*Tablo kenarları edge yapma*/
+        position: sticky;
+        top: 0;
+        padding: 10px;
+    }
+
+    #table3 .primary { /* Class adı  . ile yazılır */
+        background-color: #000000
+    }
+
+    #table3 tfoot > tr {
+        background: black;
+        color: white;
+    }
+
+    #table3 tbody > tr:hover { /*    Tbody'de tr görürsen  (hover)  üzerinde dolasırken arka planı aşağıdaki renk yap  */
+        background-color: #ffc107;
+    }
