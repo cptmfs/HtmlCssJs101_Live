@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <form action="mail.html" method="post">
+        <p>Adınız ve Soyadınız :
+            <input name="adSoyad" type="text" /></p>
+        <hr />
+        <p>Lütfen Şehir Seçiniz : </p>
+        <input id="Radio1" type="radio" value="İstanbul" />İstanbul<br />
+        <input id="Radio2" type="radio" value="Bitlis" />Bitlis<br />
+        <input id="Radio3" type="radio" value="Kastamonu" />Kastamonu<br />
+        <hr />
+        <p>
+            <input id="Text1" type="text" placeholder="Gideceginiz sehri yazınız" style="width:200px"/>
+        </p>
+        <hr />
+        <p>
+                    <input id="chk1" type="checkbox" />Uyandınızmı? 
+
+        </p>
+        <hr />
+        <p>
+                    <select id="Select1">
+                        <option>Pazartesi</option>
+                        <option>Salı</option>
+                        <option>Çarşamba</option>
+                        <option>Perşembe</option>
+                        <option selected>Cuma</option>
+                        <option>Cumartesi</option>
+                        <option>Pazar</option>
+                    </select>
+
+        </p>
+        <hr />
+        <p>
+            Hakkınızda biraz bilgi verirmisiniz ? 
+        </p>
+        <p>
+            <textarea id="textArea" cols="50" rows="5" style="resize:none"></textarea> <!--resize:none diyerek büyültüp kücülemesin bu textbox demektir.-->
+        </p>
+        <hr />
+        <p>
+            <input type="button" id="Buton1" value="Click me" />
+            <input id="Reset1" type="reset" value="Ekranı Sil.." />
+        </p>
+    </form>
+</body>
+</html>

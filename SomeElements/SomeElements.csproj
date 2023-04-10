@@ -86,10 +86,14 @@
     <Content Include="Content\bootstrap.rtl.css" />
     <Content Include="Content\bootstrap.rtl.min.css" />
     <Content Include="CssCalisma.html" />
+    <Content Include="css\color.css" />
     <Content Include="css\CssCalismaStyle.css" />
     <Content Include="deneme.html" />
+    <Content Include="divExample.html" />
+    <Content Include="divExample2.html" />
+    <Content Include="divExample3.html" />
     <Content Include="Ferit.html" />
-    <Content Include="FeritSimsek.html" />
+    <Content Include="FomInputExample.html" />
     <Content Include="HtmlTable.html" />
     <Content Include="index.html" />
     <Content Include="kaptan.html" />
